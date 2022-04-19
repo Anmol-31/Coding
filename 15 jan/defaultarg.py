@@ -17,9 +17,6 @@ Default Agrument Value
 Default value is executed only once.
 
 order matter in default argument
-
-
-
 '''
 # def display(a,b=4,c='Hello World',d=[]):
 #     print(a,b,c,d,sep='    ')

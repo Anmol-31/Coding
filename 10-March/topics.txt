@@ -1,0 +1,18 @@
+setmethods
+tuplemethods
+tuple
+zip
+membership operators
+operator precedence
+
+get method
+setdefault
+fromkeys
+keys
+value
+items
+copy
+pop
+popitems
+clear
+update

@@ -1,4 +1,4 @@
-# a = 'anmolupadhyay'
+#a = 'anmolupadhyay'
 # print(a[1:8])
 # #nmolupa
 # print(a[1:])
@@ -13,7 +13,7 @@
 # #y
 # print(a[-12:])
 # #nmolupadyay
-# print(a[1:12:-1])
+#print(a[1:12:-1])
 # #empty string
 # print(a[1:12:1])
 # #nmolupadhya

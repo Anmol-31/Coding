@@ -1,0 +1,11 @@
+sort(reverse,key)*
+index(x,start,end)
+insert(x,y)*
+count(x)
+copy()
+pop(x)*
+remove(x)*
+append(x)*
+extend(x)*
+clear()*
+reverse()*
