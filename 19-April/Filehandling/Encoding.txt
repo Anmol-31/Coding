@@ -1,0 +1,46 @@
+'''
+Encoding:-
+Computer used binary(0 and 1) to read and write file, the smallest unit of binary is bit, since data started growing
+we needed to have big units so as to easily specify data storage, hence units like byte,kilobyte,megabyte,gigabyte,terabyte,petabytes....
+generally phle photo itni use ni hoti thi digitally tho info. representation ka bada aspect text tha.text ko easily represent krne ke liye humne kuch
+systems banae.
+one of the popular system ascii[American Standard Code for Information Interchange]
+ascii representation:-
+A = 065 = 1000001
+ASCII ki limitation yeh thinki vo 256 ways se zyda info. represent ni kar skta also voh ek character ko store krne ke liye ek byte leta tha
+isko fix krne ke liye ek naya system aya.
+naya system hai UNiCODE
+encoding --> binary se human processable form main convert krna, decoding iska opposite hota hai
+
+encoding and decoding is completely different from encryption and decryption
+((encryption and decryption is the hidding of information at the source and revealing the information at the receiving end.))
+
+Then came a new way of representing text and all stuff which wasn't possible before with ASCII
+
+Unicode
+
+What does Unicode actually does:-
+1. It assigns a unique code to each character which is called CODE POINT.
+2. Unicode ke jo (behind the scenes) coding hai usse lagbhag million code points generate ho skte hain
+3. Unicode Representation :-
+    A - U+0041
+    a - U+0061
+    9 - U+0039
+    0 - U+0030
+
+4. Unicode ka kuch ekdum fix nahi hai, ke kitne bytes lega representation ke liye, kuch ke liye wo 1byte leta
+   hai aur kuch ke liye wo 4bytes bhi leta hai
+
+5. Unicode jo encoding use krta hai usse UTF-8 bolte hain
+   (UTF-8 -> Unicode Transformation Format 8 Bits)
+
+6. Windows UTF-8 use nahi krta, windows-125 use krta hai
+
+7. UTF-16 bhi ek Tarika hai Unicode ki Encoding ka
+
+8. UTF-8 and UTF-16 ek dusere ke sath compatable nahi hote.matlab agar hum ek kisi ek mai likhe aur dusere mai translate ho jye
+
+9. UTF-16 jo hai vo UTF-8 ke comparision mai less efficient hai English text Files Store krne ke liye
+
+
+'''

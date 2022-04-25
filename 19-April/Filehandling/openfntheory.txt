@@ -1,0 +1,59 @@
+'''
+Syntax:
+open('filename','mode')
+mode is an optional argument.
+
+
+File-Name
+--> First arg. hota hai vo ek string hoti hai jisme file ka nam hota hai
+--> file ka naam always with extension likha jyga
+--> if file is not there in the present directory then we need to write the path of the file.
+
+
+mode
+'r' --> when the file needs to be only read.(Default value of Mode)
+'w' --> when the file needs to be write only.If usse folder mai file already exist krti hai usse same naam se ovewrite behaviour hoga...
+'a' --> when the file needs to be append data at the end.if file dont exist it creates and then store data
+'r+' --> it is for reading and writing both.
+'b' --> binary mode mai file ko open krta hai.read aur write byte ke form mai hota hai
+'+' --> use to update files for reading and writing
+
+
+buffering:-
+use to set buffering policy.
+
+encoding:-
+encoding format
+
+errors:-
+string jo btati hai error kaise handle krne hai.
+specifically for encoding and decoding errors
+
+newline:-
+have some specific value which are:
+None   -->(Default value)*
+'r'
+'\n'
+'\r\n'
+' '
+
+
+opener:-
+create a custom file opener
+return a open file descriptor(files related to kernal)
+
+closefd:-
+it is a boolen value whose default value is true
+iski default value jab bhi change krege tho ek exception raise hota hai
+
+
+
+
+*Jab bhi ap open func. use krte hoo file open krne ke liye tho file ko close krna zarori hai
+ uske liye close method use hota hai
+
+ f.close()
+ where f is object jo open func. ki return value ko store krta hai
+
+
+'''
